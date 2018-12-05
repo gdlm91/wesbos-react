@@ -8,7 +8,7 @@ class Order extends React.Component {
   static propTypes = {
     fishes: PropTypes.objectOf(FishType),
     order: PropTypes.objectOf(PropTypes.number),
-    removeFromOrder: PropTypes.func.isRequired
+    deleteFromOrder: PropTypes.func.isRequired
   }
 
   render() {
